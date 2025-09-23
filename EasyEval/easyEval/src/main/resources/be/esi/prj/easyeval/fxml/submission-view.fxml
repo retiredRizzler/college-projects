@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="720" prefWidth="1280" stylesheets="@../css/submission-view.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.esi.prj.easyeval.fxmlcontroller.SubmissionController">
+    <top>
+        <VBox spacing="10.0" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+            </padding>
+            <HBox alignment="CENTER_LEFT" spacing="10.0">
+                <Button fx:id="backButton" mnemonicParsing="false" onAction="#handleBack" text="← Back to Exams"/>
+                <Label fx:id="examTitleLabel" styleClass="header-title" text="Exam Title - Submissions">
+                    <font>
+                        <Font name="System Bold" size="20.0"/>
+                    </font>
+                </Label>
+            </HBox>
+        </VBox>
+    </top>
+    <center>
+        <VBox spacing="15.0" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets bottom="15.0" left="20.0" right="20.0" top="10.0"/>
+            </padding>
+
+            <!-- Import Section -->
+            <TitledPane text="Import Submissions">
+                <VBox spacing="10.0">
+                    <HBox alignment="CENTER_LEFT" spacing="10.0">
+                        <Label text="Select Exam:"/>
+                        <ComboBox fx:id="examSelector" promptText="Select an exam" HBox.hgrow="ALWAYS" />
+                    </HBox>
+                    <HBox alignment="CENTER_LEFT" spacing="10.0">
+                        <Button fx:id="importScansButton" mnemonicParsing="false" onAction="#handleImportScans" styleClass="button-primary" text="Import Scanned Files"/>
+                        <Label fx:id="scanCountLabel" text="No scans imported"/>
+                    </HBox>
+                </VBox>
+            </TitledPane>
+
+            <!-- Preview Section -->
+            <TitledPane text="Submissions Preview">
+                <VBox spacing="10.0" VBox.vgrow="ALWAYS">
+                    <TableView fx:id="submissionsTable" VBox.vgrow="ALWAYS">
+                        <columns>
+                            <TableColumn fx:id="fileNameColumn" prefWidth="250.0" text="File Name" />
+                            <TableColumn fx:id="studentIdColumn" prefWidth="150.0" text="Student ID" />
+                            <TableColumn fx:id="statusColumn" prefWidth="100.0" text="Status" />
+                            <TableColumn fx:id="scoreColumn" prefWidth="80.0" text="Score" />
+                            <TableColumn fx:id="confidenceColumn" prefWidth="100.0" text="OCR Confidence" />
+                            <TableColumn fx:id="dateColumn" prefWidth="150.0" text="Date Scanned" />
+                        </columns>
+                        <placeholder>
+                            <Label text="No submission scans imported. Use the Import button above to add scans." />
+                        </placeholder>
+                    </TableView>
+                    <HBox alignment="CENTER_RIGHT" spacing="10.0">
+                        <Button fx:id="removeSubmissionButton" mnemonicParsing="false" onAction="#handleRemoveSubmission" styleClass="button-danger" text="Remove Selected" />
+                        <Button fx:id="clearAllButton" mnemonicParsing="false" onAction="#handleClearAll" styleClass="button-danger" text="Clear All" />
+                    </HBox>
+                </VBox>
+            </TitledPane>
+
+            <!-- OCR Processing Section -->
+            <TitledPane text="OCR Processing">
+                <VBox spacing="10.0">
+                    <HBox alignment="CENTER_LEFT" spacing="10.0">
+                        <Label text="OCR Engine:" />
+                        <ComboBox fx:id="ocrEngineCombo" prefWidth="150.0" />
+                        <CheckBox fx:id="enhanceImagesCheckbox" selected="true" text="Pre-process images" />
+                        <CheckBox fx:id="rotationCorrectionCheckbox" selected="true" text="Rotation correction" />
+                        <CheckBox fx:id="debugModeCheckbox" text="Debug mode" />
+                    </HBox>
+                    <HBox alignment="CENTER" spacing="15.0">
+                        <Button fx:id="processSubmissionsButton" defaultButton="true" mnemonicParsing="false" onAction="#handleProcessSubmissions" styleClass="button-success" text="Process Submissions">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Button>
+                    </HBox>
+                    <ProgressBar fx:id="processingProgressBar" prefWidth="Infinity" progress="0.0" />
+                    <Label fx:id="processingStatusLabel" text="Ready to process" />
+                </VBox>
+            </TitledPane>
+
+            <!-- Results Actions Section -->
+            <TitledPane text="Results">
+                <HBox alignment="CENTER" spacing="15.0">
+                    <Button fx:id="exportResultsButton" mnemonicParsing="false" onAction="#handleExportResults" styleClass="button-primary" text="Export Results to CSV" />
+                    <Button fx:id="viewDetailedResultsButton" mnemonicParsing="false" onAction="#handleViewDetailedResults" text="View Detailed Results" />
+                    <Button fx:id="viewAllReportsButton" mnemonicParsing="false" onAction="#handleViewAllReports" styleClass="button-secondary" text="Voir tous les rapports" />
+                </HBox>
+            </TitledPane>
+        </VBox>
+    </center>
+    <bottom>
+        <HBox alignment="CENTER_RIGHT" spacing="10.0" styleClass="footer" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets bottom="10.0" left="20.0" right="20.0" top="10.0"/>
+            </padding>
+            <Label text="easyEval v1.0" textFill="#6e6e6e"/>
+        </HBox>
+    </bottom>
+</BorderPane>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="720" prefWidth="1280" stylesheets="@../css/course_manager-view.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.esi.prj.easyeval.fxmlcontroller.CourseManagerController">
+    <top>
+        <VBox spacing="10.0" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+            </padding>
+            <HBox alignment="CENTER_LEFT" spacing="10.0">
+                <Label styleClass="header-title" text="easyEval">
+                    <font>
+                        <Font name="System Bold" size="24.0"/>
+                    </font>
+                </Label>
+                <Label styleClass="header-subtitle" text="Course Management">
+                    <font>
+                        <Font size="16.0"/>
+                    </font>
+                </Label>
+            </HBox>
+            <HBox alignment="CENTER" spacing="10.0">
+                <TextField fx:id="searchField" promptText="Search courses..." HBox.hgrow="ALWAYS"/>
+                <Button mnemonicParsing="false" onAction="#handleSearch" text="Search"/>
+                <Button mnemonicParsing="false" onAction="#handleClearSearch" text="Clear"/>
+            </HBox>
+        </VBox>
+    </top>
+    <center>
+        <VBox spacing="10.0" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="10.0"/>
+            </padding>
+            <HBox alignment="CENTER_LEFT" spacing="10.0">
+                <Label text="Available Courses:" HBox.hgrow="ALWAYS">
+                    <font>
+                        <Font size="14.0"/>
+                    </font>
+                </Label>
+
+                <Button fx:id="addCourseBtn" mnemonicParsing="false" onAction="#handleAddCourse" styleClass="button-primary" text="Add Course"/>
+                <Button fx:id="deleteAllCoursesBtn" mnemonicParsing="false" onAction="#handleDeleteAllCourses" styleClass="button-danger" text="Delete All"/>
+            </HBox>
+            <GridPane fx:id="coursesGrid" hgap="15.0" vgap="15.0" VBox.vgrow="ALWAYS">
+                <!-- Course cards will be added here dynamically -->
+            </GridPane>
+        </VBox>
+    </center>
+    <bottom>
+        <HBox alignment="CENTER_RIGHT" spacing="10.0" styleClass="footer" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets bottom="10.0" left="20.0" right="20.0" top="10.0"/>
+            </padding>
+            <Label text="easyEval v1.0" textFill="#6e6e6e"/>
+        </HBox>
+    </bottom>
+</BorderPane>

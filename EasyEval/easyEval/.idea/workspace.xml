@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aead5c33-e21d-48bd-a408-704759146ddd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external-data/easyeval.db" beforeDir="false" afterPath="$PROJECT_DIR$/external-data/easyeval.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/esi/prj/easyeval/viewmodel/CourseManagerViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/esi/prj/easyeval/viewmodel/CourseManagerViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.gitignore" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2v83MuY6SaM2s3UfNzCCHoUFCTj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EasyEvalApplication.executor": "Run",
+    "Application.ExamAnswerBoxDetector.executor": "Run",
+    "Application.ExamDocumentTemplate.executor": "Run",
+    "Application.OCRService.executor": "Run",
+    "Application.TesseractOCRService.executor": "Run",
+    "JUnit.All in EasyEval.executor": "Run",
+    "JUnit.CourseManagerViewModelTest.executor": "Run",
+    "JUnit.CourseRepositoryTest.executor": "Run",
+    "JUnit.CourseRepositoryTest.testGetExamIds.executor": "Run",
+    "JUnit.CourseRepositoryTest.testSaveWithUniqueNameConstraintViolation.executor": "Run",
+    "JUnit.DocumentCreatorViewModelTest.executor": "Run",
+    "JUnit.ExamDocumentRepositoryTest.executor": "Run",
+    "JUnit.QuestionRepositoryTest.executor": "Run",
+    "JUnit.QuestionRepositoryTest.testAddQuestionToExam.executor": "Run",
+    "JUnit.QuestionRepositoryTest.testFindByExamId.executor": "Run",
+    "JUnit.QuestionRepositoryTest.testRemoveQuestionFromExam.executor": "Run",
+    "JUnit.QuestionRepositoryTest.testUpdateQuestionOrder.executor": "Run",
+    "JUnit.ScanResultRepositoryTest.testSaveNewScanResult.executor": "Run",
+    "JUnit.SubmissionRepositoryTest.executor": "Run",
+    "JUnit.SubmissionRepositoryTest.testDeleteById.executor": "Run",
+    "JUnit.be.esi.prj.easyeval in EasyEval.executor": "Run",
+    "JUnit.be.esi.prj.easyeval.viewmodel in EasyEval.executor": "Run",
+    "JUnit.java in EasyEval.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/rz-st/Desktop/esi/bloc2/q2/prj/project/4prj1d-d112/EasyEval",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rz-st\Desktop\esi\bloc2\q2\prj\project\4prj1d-d112\EasyEval\external-data\scans" />
+      <recent name="C:\Users\rz-st\Desktop\esi\bloc2\q2\prj\project\4prj1d-d112\EasyEval\src\main\resources\be\esi\prj\easyeval\data" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rz-st\Desktop\esi\bloc2\q2\prj\project\4prj1d-d112\EasyEval\src\main\resources\be\esi\prj\easyeval\css" />
+      <recent name="C:\Users\rz-st\Desktop\esi\bloc2\q2\prj\project\4prj1d-d112\EasyEval\src\main\resources\be\esi\prj\easyeval\fxml" />
+      <recent name="C:\Users\rz-st\Desktop\esi\bloc2\q2\prj\project\4prj1d-d112\EasyEval\external-data" />
+      <recent name="C:\Users\rz-st\Desktop\esi\bloc2\q2\prj\project\4prj1d-d112\EasyEval\external-data\scans" />
+      <recent name="C:\Users\rz-st\Desktop\esi\bloc2\q2\prj\project\4prj1d-d112\EasyEval\src\main\resources\be\esi\prj\easyeval\data\tessdata" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="be.esi.prj.easyeval.viewmodel" />
+      <recent name="be.esi.prj.easyeval.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EasyEvalApplication">
+    <configuration name="EasyEvalApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.esi.prj.easyeval.EasyEvalApplication" />
+      <module name="EasyEval" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.esi.prj.easyeval.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamAnswerBoxDetector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.esi.prj.easyeval.service.ExamAnswerBoxDetector" />
+      <module name="EasyEval" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.esi.prj.easyeval.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamDocumentTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.esi.prj.easyeval.utils.ExamDocumentTemplate" />
+      <module name="EasyEval" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.esi.prj.easyeval.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesseractOCRService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.esi.prj.easyeval.service.TesseractOCRService" />
+      <module name="EasyEval" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.esi.prj.easyeval.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="be.esi.prj.easyeval.viewmodel in EasyEval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EasyEval" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.esi.prj.easyeval.viewmodel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.esi.prj.easyeval.viewmodel" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EasyEvalApplication" />
+        <item itemvalue="JUnit.be.esi.prj.easyeval.viewmodel in EasyEval" />
+        <item itemvalue="Application.TesseractOCRService" />
+        <item itemvalue="Application.ExamDocumentTemplate" />
+        <item itemvalue="Application.ExamAnswerBoxDetector" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aead5c33-e21d-48bd-a408-704759146ddd" name="Changes" comment="" />
+      <created>1743512828874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743512828874</updated>
+      <workItem from="1743512829993" duration="845000" />
+      <workItem from="1744013075356" duration="579000" />
+      <workItem from="1744016369746" duration="29000" />
+      <workItem from="1744016420384" duration="299000" />
+      <workItem from="1744016865783" duration="450000" />
+      <workItem from="1744125355945" duration="5586000" />
+      <workItem from="1744141021957" duration="8288000" />
+      <workItem from="1744546595027" duration="9861000" />
+      <workItem from="1744620591099" duration="2355000" />
+      <workItem from="1744629831572" duration="6499000" />
+      <workItem from="1744727340007" duration="12022000" />
+      <workItem from="1745321487559" duration="4174000" />
+      <workItem from="1746539836509" duration="22523000" />
+      <workItem from="1746629058952" duration="24219000" />
+      <workItem from="1746875916122" duration="23849000" />
+      <workItem from="1747027637276" duration="13000" />
+      <workItem from="1747076168493" duration="1435000" />
+      <workItem from="1754302120418" duration="98000" />
+      <workItem from="1758628352519" duration="2986000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
